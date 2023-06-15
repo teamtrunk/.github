@@ -24,6 +24,14 @@ body:
         - "✅ New Test"
     validations:
       required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Job To Be Done
+      description: What is the job that a user would like to accieve with this feature.
+    validations:
+      required: true
 
   - type: textarea
     id: description
