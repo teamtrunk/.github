@@ -29,7 +29,7 @@ body:
     id: job-to-be-done
     attributes:
       label: Job To Be Done
-      description: What is the job that a user would like to accieve with this feature.
+      description: What is the job that a user would like to be fulfilled with this feature.
     validations:
       required: true
 
