@@ -42,6 +42,31 @@ body:
       required: true
 
   - type: textarea
+    id: rabbit-holes
+    attributes:
+      label: Potential Rabbit Holes ⚠️
+
+  - type: textarea
+    id: no-gos
+    attributes:
+      label: No-go's ⛔
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks 🤔
+      
+  - type: textarea
+    id: scope-hammer
+    attributes:
+      label: Scope hammer candidates 🔨
+
+  - type: textarea
+    id: deadline
+    attributes:
+      label: Deadline - Ship date 🗓️
+
+  - type: textarea
     id: additional-information
     attributes:
       label: Additional Information
