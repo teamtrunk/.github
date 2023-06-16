@@ -45,26 +45,31 @@ body:
     id: rabbit-holes
     attributes:
       label: Potential Rabbit Holes ⚠️
+      description: Where might we get stuck or burn lots of time?
 
   - type: textarea
     id: no-gos
     attributes:
       label: No-go's ⛔
+      description: What should we keep away from?
 
   - type: textarea
     id: risks
     attributes:
       label: Risks 🤔
+      description: Where could things go off track?
       
   - type: textarea
     id: scope-hammer
     attributes:
       label: Scope hammer candidates 🔨
+      description: What might we choose to exclude?
 
   - type: textarea
     id: deadline
     attributes:
       label: Deadline - Ship date 🗓️
+      description: When's this due to ship? (e.g. "1st May 2023" or "End of May")
 
   - type: textarea
     id: additional-information
