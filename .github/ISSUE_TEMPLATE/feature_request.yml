@@ -29,7 +29,9 @@ body:
     id: job-to-be-done
     attributes:
       label: Job To Be Done
-      description: What is the job that a user would like to be fulfilled with this feature.
+      description: |
+          What is the job that a user would like to be fulfilled with this feature. 
+          [Jobs To Be Done: Definition, Examples, and Framework for Your Business](https://www.coursera.org/articles/jobs-to-be-done)
     validations:
       required: true
 
@@ -65,7 +67,7 @@ body:
       label: Scope hammer candidates 🔨
       description: What might we choose to exclude?
 
-  - type: textarea
+  - type: input
     id: deadline
     attributes:
       label: Deadline - Ship date 🗓️
