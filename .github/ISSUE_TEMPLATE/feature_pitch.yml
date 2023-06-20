@@ -1,14 +1,13 @@
-name: ✨ Feature Request
-description: Suggest an idea for this project
-title: "[Feature]: "
-labels: ["enhancement"]
+name: ✨ New Feature Pitch
+description: Write a new feature pitch.
+title: "[Feature Pitch]: "
+labels: ["pitch"]
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request! 🤗
-        Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues. 😃
+        ## Main Information
 
   - type: dropdown
     attributes:
@@ -44,6 +43,28 @@ body:
       required: true
 
   - type: textarea
+    id: documents
+    attributes:
+      label: Documents
+      description: Add additional documents. (e.g miro links, google doc links)
+      placeholder: |
+        * [Miro: Name](https://miro.com)
+        * [Google Doc](https://google.com)
+        * [Equals](https://go.equals.com)
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline - Ship date 🗓️
+      description: "When's this due to ship? (e.g. '1st May 2023' or 'End of May')"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Additional Information
+        
+  - type: textarea
     id: rabbit-holes
     attributes:
       label: Potential Rabbit Holes ⚠️
@@ -66,15 +87,3 @@ body:
     attributes:
       label: Scope hammer candidates 🔨
       description: What might we choose to exclude?
-
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline - Ship date 🗓️
-      description: When's this due to ship? (e.g. "1st May 2023" or "End of May")
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional Information
-      description: Give us some additional information on the feature request like proposed solutions, links, screenshots, etc.
