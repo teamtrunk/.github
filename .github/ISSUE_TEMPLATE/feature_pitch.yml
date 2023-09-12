@@ -31,8 +31,6 @@ body:
       description: |
           What is the job that a user would like to be fulfilled with this feature. 
           [Jobs To Be Done: Definition, Examples, and Framework for Your Business](https://www.coursera.org/articles/jobs-to-be-done)
-    validations:
-      required: true
 
   - type: textarea
     id: description
