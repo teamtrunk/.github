@@ -23,14 +23,6 @@ body:
         - "✅ New Test"
     validations:
       required: true
-      
-  - type: textarea
-    id: job-to-be-done
-    attributes:
-      label: Job To Be Done
-      description: |
-          What is the job that a user would like to be fulfilled with this feature. 
-          [Jobs To Be Done: Definition, Examples, and Framework for Your Business](https://www.coursera.org/articles/jobs-to-be-done)
 
   - type: textarea
     id: description
@@ -40,6 +32,19 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    id: areas-of-concern
+    attributes:
+      label: Areas of Concern
+      description: Which areas will be affected by this change?
+      options:
+        - label: Watchtower
+        - label: App
+        - label: Emails
+        - label: Dashboards/Reports
+        - label: PDF Exports
+        - label: Andons
+  
   - type: textarea
     id: documents
     attributes:
