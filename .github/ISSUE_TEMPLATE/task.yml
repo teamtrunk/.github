@@ -1,0 +1,28 @@
+name: ☐ New Task
+description: Write a new task.
+title: "[Task]: "
+labels: ["task"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Main Information
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give us a brief description of the task to be done
+    validations:
+      required: true
+  
+  - type: textarea
+    id: documents
+    attributes:
+      label: Documents
+      description: Add additional documents. (e.g miro links, google doc links)
+      placeholder: |
+        * [Miro: Name](https://miro.com)
+        * [Google Doc](https://google.com)
+        * [Equals](https://go.equals.com)
